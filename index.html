@@ -1,0 +1,221 @@
+
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+<div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">MMA Survey <Form>
+
+<p id="description" class="description text-center">
+      Thank you for taking the time to help us improve the UFC
+    </p>
+</Form></h1>
+      
+    
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Age<span class="clue">(optional)</span></label
+        >
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+        />
+      </div>
+      <div class="form-group">
+        <p>Who is the pound for pound greatest?</p>
+        <select id="dropdown" name="choice1"     class="form-control" required>
+          <option disabled selected value>Select your choice</option>
+          <option value="Jon">Jon Jones</option>
+          <option value="GSP">GSP</option>
+          <option value="Cejudo"> Henry Cejudo</option>
+          <option value="Usman">Kamaru Usman</option>
+          <option value="Silva">Anderson Silva</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>Are you happy with current UFC match making?</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Definitely</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="Not Really"
+            type="radio"
+            class="input-radio"
+          />Not Really</label
+        >
+  
+        <label
+          ><input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Not Sure</label
+        >
+      </div>
+  
+      <div class="form-group">
+        <p>
+          What is your favorite fighting style?
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="Striker">Striker</option>
+          <option value="Wrestler">Wrestler</option>
+          <option value="Submission Specialist">Submission Specialist</option>
+          <option value="Well Rounded">Well Rounded</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>
+          What would you like to see improved?
+          <span class="clue">(Check all that apply)</span>
+        </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="Matchups"
+            type="checkbox"
+            class="input-checkbox"
+          />Match-Ups</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="Judging"
+            type="checkbox"
+            class="input-checkbox"
+          />Judges</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="new-weight-class"
+            type="checkbox"
+            class="input-checkbox"
+          />New Weight Class</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="better-ref"
+            type="checkbox"
+            class="input-checkbox"
+          />Better Referee's</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Fighter-Pay"
+            type="checkbox"
+            class="input-checkbox"
+          />More Fighter Pay</label
+        >
+        <label
+          ><input
+            name="better-merch"
+            value="gitter-help-rooms"
+            type="checkbox"
+            class="input-checkbox"
+          />Better Merch</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="social-media"
+            type="checkbox"
+            class="input-checkbox"
+          />Social Media</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="fighter-exposure"
+            type="checkbox"
+            class="input-checkbox"
+          />Fighter Exposure</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="union"
+            type="checkbox"
+            class="input-checkbox"
+          />Fighter Union</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="better-streaming-service"
+            type="checkbox"
+            class="input-checkbox"
+          />Better Streaming Service</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="more-content"
+            type="checkbox"
+            class="input-checkbox"
+          />More Content</label
+        >
+      </div>
+  
+      <div class="form-group">
+        <p>What fight do you want to see?</p>
+        <textarea
+          id="comment"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+  
